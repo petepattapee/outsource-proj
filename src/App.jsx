@@ -1,10 +1,9 @@
 //Pages
 import Homepage from "./pages/Homepage.jsx";
-import Login from "./pages/login.jsx";
 import Register from "./pages/Register.jsx";
+import Login from "./pages/Login.jsx";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 
 function App() {
   return (
