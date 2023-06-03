@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "https://technotes-api.onrender.com",
+  baseURL: "https://out-proj-api.onrender.com",
 });
