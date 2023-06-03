@@ -1,6 +1,6 @@
 import Logo from "../assets/Logo.png";
 import SocialMediaicons from "../assets/SocialMediaicons.png";
-import Copyright from "../assets/Copyright.png";
+import copyright from "../assets/copyright.png";
 
 function Footer() {
   return (
@@ -68,7 +68,7 @@ function Footer() {
       </div>
       <div className="flex items-center justify-center mb-5 gap-2">
         <h1 className="font-bold">Rahul Rao</h1>
-        <img src={Copyright} alt="" />
+        <img src={copyright} alt="" />
       </div>
     </footer>
   );
