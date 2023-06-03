@@ -1,6 +1,6 @@
 import Nav from "./Nav";
 import heading from "../assets/heading.png";
-import Brightness from "../assets/Brightness.png";
+import brightness from "../assets/brightness.png";
 
 function Header() {
   return (
@@ -9,7 +9,7 @@ function Header() {
       <div className="flex justify-center items-center mt-20">
         <div className="w-[472px] h-[294px]">
           <div className="w-[258px] h-[40px] flex justify-center items-center border border-[##722ED1] text-[#722ED1] rounded-full bg-[#F7F1FF]">
-            <img src={Brightness} alt="" className="pr-2" />
+            <img src={brightness} alt="" className="pr-2" />
             v3.1 released, Learn more
           </div>
           <div className="mt-7 font-bold text-5xl">Your data with</div>
